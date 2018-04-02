@@ -1,0 +1,6 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="https://api.coinmarketcap.com">
+	<objectType name="TickerResponse" open="true">
+		<property xmlns:d3p1="https://api.coinmarketcap.com" name="Tickers" type="d3p1:Ticker" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="Ticker" open="true"/>
+</package>
